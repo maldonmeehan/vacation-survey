@@ -58,6 +58,16 @@ $(document).ready(function() {
       $('#home').hide();
     }
 
+  //  else (){
+  //    $('#everywhere').show();
+  //    $('#borabora').show();
+  //    $('#glamping').show();
+  //    $('#mountian').show();
+  //    $('#egypt').show();
+  //    $('#vegas').show();
+  //    $('#home').show();
+  //  }
+
     event.preventDefault();
   });
 });
