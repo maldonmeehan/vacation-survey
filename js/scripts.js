@@ -7,7 +7,6 @@ $(document).ready(function() {
     var location = parseInt($("#locaiton").val());
     var transport = parseInt($("#transport").val());
 
-
     if (room === 1 && food === 1 && weather === 1 && doors === 1) {
       $('#home').show();
       $('#glamping').hide();
