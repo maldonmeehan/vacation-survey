@@ -1,4 +1,5 @@
 $(document).ready(function() {
+
   $("form#survey").submit(function(event){
     var room = parseInt($("#room").val());
     var food = parseInt($("#food").val());
@@ -6,6 +7,9 @@ $(document).ready(function() {
     var doors = parseInt($("#doors").val());
     var location = parseInt($("#locaiton").val());
     var transport = parseInt($("#transport").val());
+    var nameInput = $("input#name").val();
+
+    $(".name").text(nameInput);
 
     if (room === 1 && food === 1 && weather === 1 && doors === 1) {
       $('#home').show();
@@ -53,14 +57,6 @@ $(document).ready(function() {
       $('#vegas').hide();
       $('#home').hide();
     }
-  //  else (test) {
-  //    $('#home').show();
-  //    $('#glamping').show();
-  //    $('#mountian').show();
-  //    $('#egypt').show();
-  //    $('#vegas').show();
-  //    $('#borabora').show();
-  //  }
 
     event.preventDefault();
   });
