@@ -3,7 +3,7 @@ An exercise for Epicodus 06.03.2016
 
 By Maldon Meehan
 
-Description
+Description:
 Week Two Final Project: This is an Epicodus student project to Create a webpage (using HTML, CSS, JavaScript and JQuery) where a user can answer questions about themselves and be given a vacation destination based on their answers.
 
 Setup
