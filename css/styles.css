@@ -11,3 +11,8 @@ h3{
   font-style: italic;
   color: purple;
 }
+
+em {
+    font-style: italic;
+    color: green;
+}  
