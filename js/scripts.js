@@ -53,14 +53,15 @@ $(document).ready(function() {
       $('#vegas').hide();
       $('#home').hide();
     }
-    else if (result === 6) {
-      $('#home').show();
-      $('#glamping').hide();
-      $('#mountian').hide();
-      $('#egypt').hide();
-      $('#vegas').hide();
-      $('#borabora').hide();
-    }
+  //  else (test) {
+  //    $('#home').show();
+  //    $('#glamping').show();
+  //    $('#mountian').show();
+  //    $('#egypt').show();
+  //    $('#vegas').show();
+  //    $('#borabora').show();
+  //  }
+
     event.preventDefault();
   });
 });
