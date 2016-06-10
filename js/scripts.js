@@ -18,6 +18,7 @@ $(document).ready(function() {
       $('#egypt').hide();
       $('#vegas').hide();
       $('#borabora').hide();
+      $("#other").hide();
     } else if (room === 2 && food === 2 && weather === 2 && doors === 2 ) {
       $('#glamping').show();
       $('#home').hide();
@@ -25,6 +26,7 @@ $(document).ready(function() {
       $('#egypt').hide();
       $('#vegas').hide();
       $('#borabora').hide();
+      $("#other").hide();
     } else if (room === 1 && food === 2 && weather === 2 && doors === 2 )  {
       $('#mountian').show();
       $('#glamping').hide();
@@ -32,32 +34,40 @@ $(document).ready(function() {
       $('#egypt').hide();
       $('#vegas').hide();
       $('#borabora').hide();
-    }
-    else if (room === 2 && food === 1 && weather === 2 && doors === 2 )  {
+      $("#other").hide();
+    } else if (room === 2 && food === 1 && weather === 2 && doors === 2 )  {
       $('#egypt').show();
       $('#glamping').hide();
       $('#mountian').hide();
       $('#home').hide();
       $('#vegas').hide();
       $('#borabora').hide();
-    }
-    else if (room === 2 && food === 2 && weather === 1 && doors === 2 )  {
+      $("#other").hide();
+    } else if (room === 2 && food === 2 && weather === 1 && doors === 2 )  {
       $('#vegas').show();
       $('#glamping').hide();
       $('#mountian').hide();
       $('#egypt').hide();
       $('#home').hide();
       $('#borabora').hide();
-    }
-    else if (room === 2 && food === 2 && weather === 2 && doors === 1 )  {
+      $("#other").hide();
+    } else if (room === 2 && food === 2 && weather === 2 && doors === 1 )  {
       $('#borabora').show();
       $('#glamping').hide();
       $('#mountian').hide();
       $('#egypt').hide();
       $('#vegas').hide();
       $('#home').hide();
+      $("#other").hide();
+    } else {
+      $("#other").show();
+      $('#vegas').show();
+      $('#glamping').show();
+      $('#mountian').show();
+      $('#egypt').show();
+      $('#home').show();
+      $('#borabora').show();
     }
-
     event.preventDefault();
   });
 });
